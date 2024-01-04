@@ -1,3 +1,4 @@
+import 'package:buddies/activities.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -21,9 +22,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: theme,
-      home: const Center(
-        child: Text('Hello, world!'),
-      ),
+      home: const ActivitiesScreen(),
     );
   }
 }
